@@ -5,7 +5,7 @@ unknownTokenLabel = '<UNK>' # label for unknown tokens in new documents
 maxIterations = 5 # iterations to mesure accuracy
 
 def main():
-    dataDir = "/home/omega/Downloads/ML_MANUAL_faculty/lab07/spam_reviews"
+    dataDir = "spam_reviews"
     iterations = 0
     aveAccuracy = 0
     while iterations < maxIterations:	
